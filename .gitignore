@@ -1,0 +1,26 @@
+# =============== Visual Studio 忽略 ===============
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# =============== 构建中间产物 ===============
+build*/
+Debug/
+Release/
+x64/
+*.obj
+*.exe
+*.dll
+*.pdb
+*.log
+
+# =============== 一般忽略 ===============
+*.ipch
+*.cache
+*.ncb
+*.opensdf
+*.sdf
+*.db
+*.DS_Store
